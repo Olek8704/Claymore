@@ -1,0 +1,162 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+    margin: 0;
+}
+
+/*Header*/
+
+.header  {
+    background: url("../images/bgjpg_01.jpg") center / cover no-repeat;
+    height: 100vh;
+}
+
+.header-item a {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+.header-item a:last-child {
+    background-color: #3498db;
+    margin-left: 15px;
+}
+
+.header-item a:hover {
+    text-decoration: underline;
+}
+
+.header-item p {
+    position: absolute;
+    top: 10px;
+    left: 148px;
+    border-radius: 50%;
+    background-color: #fff;
+    font-size: 18px;
+}
+
+.header-item span {
+    margin: 5px;
+}
+
+.header-ipad {
+    width: 100%;
+    max-width: 415px;
+}
+
+/*Main*/
+
+/*About*/
+
+.about {
+    padding: 100px 0;
+}
+
+/*Service*/
+
+.service {
+    background-color: #f6f6f6;
+    padding: 100px 0;
+}
+
+/*Features*/
+
+.features {
+    background: url("../images/features.jpg") center / cover no-repeat;
+    padding: 100px 0;
+    height: 100%;
+    max-height: 550px;
+}
+
+.features-laptop {
+    width: 100%;
+    max-width: 600px;
+}
+
+.features .fa-chevron-left,
+.features .fa-chevron-right {
+    color: #fff;
+    font-size: 70px;
+}
+
+/*People-say*/
+
+.people-say {
+    background-color: #fff;
+    padding: 120px 0;
+}
+
+/*Contact*/
+
+.contact {
+    background-color: #34495e;
+    padding: 120px 0;
+}
+
+.contact a {
+    color: #fff;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/*Form*/
+
+.form-inner {
+    background-color: #5d6d7e;
+    border-color: #5d6d7e;
+}
+
+ input[type="text"]::-moz-placeholder {
+     color: #bec5cb;
+ }
+
+ input[type="text"]::-webkit-input-placeholder {
+     color: #bec5cb;
+ }
+
+input[type="email"]::-moz-placeholder {
+    color: #bec5cb;
+}
+
+input[type="email"]::-webkit-input-placeholder {
+    color: #bec5cb;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
